@@ -5,7 +5,8 @@ const Round = () => {
   const { round } = useContext(ScoreResetContext);
   const mainStyle = {
     fontFamily: "'Fredoka',sans-serif",
-    fontSize: "2rem",
+    fontSize: "2em",
+    fontWeight: "bold",
     textAlign: "center",
     textShadow: "0px 0px 3px #e4e4e4",
   };
