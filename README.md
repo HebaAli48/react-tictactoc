@@ -17,7 +17,7 @@ If XPlayer is drawed with Oplayer , there will be last round to determine the wi
 
 - React.js: A JavaScript library for building user interfaces.
 - Vite: A fast build tool and development server that supports modern web technologies.
-- CSS: Styles have been implemented using cascading stylesheets
+- CSS: Styles have been implemented using cascading stylesheets.
 
 ## How to Play
 
@@ -26,7 +26,7 @@ If XPlayer is drawed with Oplayer , there will be last round to determine the wi
 3. Install the project dependencies by running npm install.
 4. Start the server with npm run dev.
 5. Open your browser and go to play the game.
-6. Click on the cells to make your moves and try to get three in a horizontal , vertical or diagonal row!
+6. Click on the cells to make your moves and try to get three in a horizontal , vertical or diagonal row.
 7. If you want to play against the AI, select the appropriate difficulty level before starting the game (SOON).
 
 ## Credits
