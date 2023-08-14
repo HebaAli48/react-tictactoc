@@ -1,10 +1,10 @@
 # Front-end Tic Tac Toe Game (React js)
 
-Welcome to the classic game of Tic Tac Toe! This project is an implementation of the popular game using React.js. Test your strategic skills by playing against a friend or challenging the computer AI (SOON).
+Welcome to the classic game of Tic Tac Toe! This project is an implementation of the popular game using React.js. Test your strategic skills by playing against a friend or challenging the computer AI (SOON)✨✨.
 
-In this game ,two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner 🥳.
+In this game ,two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner 🏆🏆.
 
-If XPlayer is drawed with Oplayer , there will be last round to determine the winner 🥳.
+If XPlayer is drawed with Oplayer , there will be last round to determine the winner🏆🏆.
 
 ## Features
 
@@ -32,3 +32,5 @@ If XPlayer is drawed with Oplayer , there will be last round to determine the wi
 ## Credits
 
 This project was inspired by the classic game of Tic Tac Toe and was created as a learning exercise with React.js.
+
+## From Game
