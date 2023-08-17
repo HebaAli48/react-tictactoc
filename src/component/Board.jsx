@@ -90,7 +90,7 @@ const Board = () => {
           <div className="container">
             {takeLastRound == false && finishRound == true && <PlayAgain />}
             {round > 0 && <FinishGame />}
-            <Reset />
+            {takeLastRound == false && <Reset />}
           </div>
         </div>
       )}

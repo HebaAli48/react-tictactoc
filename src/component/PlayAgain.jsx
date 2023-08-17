@@ -12,19 +12,20 @@ const PlayAgain = () => {
     setFinishGame,
     round,
     setRound,
+    winner,
   } = useContext(ScoreResetContext);
   const handleTryAgain = () => {
-    const newRound = round + 1; // Calculate the new round value here
-    setRound(newRound);
     setBoard(Array(9).fill(null));
     setXPlayer(true);
     setWinner("");
     setFinishRound(false);
     setFinishGame(false);
-    console.log(round);
   };
   const [isHovering, setIsHovering] = useState(false);
-
+  useEffect(() => {
+    const newRound = round + 1; // Calculate the new round value here
+    setRound(newRound);
+  }, [winner]);
   const handleMouseEnter = () => {
     setIsHovering(true);
   };

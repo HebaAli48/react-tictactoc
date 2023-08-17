@@ -11,6 +11,7 @@ const FinishGame = () => {
     setFinishRound,
     setFinishGame,
     setTakeLastRound,
+    finishRound,
   } = useContext(ScoreResetContext);
   const { xScore, oScore } = score;
   const handleFinishGame = () => {
@@ -39,7 +40,7 @@ const FinishGame = () => {
           backgroundColor: isHovering ? "#FFFFFF" : "#4169E1",
           color: isHovering ? "#4169E1" : "#FFFFFF",
         }}
-        onClick={handleFinishGame}
+        onClick={finishRound ? handleFinishGame : null}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >

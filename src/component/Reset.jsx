@@ -10,6 +10,7 @@ const Reset = () => {
     setFinishRound,
     setFinishGame,
     setRound,
+    setTakeLastRound,
   } = useContext(ScoreResetContext);
   const [isHovering, setIsHovering] = useState(false);
 
@@ -28,6 +29,7 @@ const Reset = () => {
     setFinishRound(false);
     setFinishGame(false);
     setRound(0);
+    setTakeLastRound(false);
   };
   return (
     <div className="container">
