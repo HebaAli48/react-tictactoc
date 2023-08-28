@@ -5,6 +5,7 @@ Welcome to the classic game of Tic Tac Toe! This project is an implementation of
 In this game ,two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner 🏆🏆.
 
 If XPlayer is drawed with Oplayer , there will be last round to determine the winner🏆🏆.
+### Try It :https://sparkly-narwhal-a6bf2c.netlify.app/
 
 ## Features
 
